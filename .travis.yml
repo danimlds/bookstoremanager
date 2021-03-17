@@ -1,6 +1,8 @@
 dist: xenial
 language: java
-addons:
-  apt:
-    packages:
-     - ant
+sudo: false
+jdk: openjdk14
+install: true
+cache:
+  directories:
+    - $HOME/.m2
